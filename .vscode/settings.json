@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "username": "postgres",
+            "name": "Local postgreSQL",
+            "database": "postgres",
+            "group": "Default"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": false,
+                    "requestCert": false
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "db.hgiaqjkmjijiplblmmua.supabase.co",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "Abia Warehouse",
+            "database": "postgres",
+            "username": "postgres"
+        }
+    ]
+}
